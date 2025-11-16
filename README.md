@@ -1,2 +1,24 @@
-# lab7-testing-build-deploy
-Testing, building, and deploying an application with CI/CD.
+# Лабораторна робота №7. Тестування, збірка та розгортання застосунку. CI/CD
+
+Лабораторна робота присвячена **unit-тестуванню, API/інтеграційному тестуванню, збірці проєкту та налаштуванню CI/CD пайплайну** за допомогою GitHub Actions.
+
+---
+
+## Використані технології
+- **Node.js / Express** – бекенд API  
+- **JavaScript** – мова програмування  
+- **Jest** – unit-тестування  
+- **Supertest** – API/інтеграційне тестування  
+- **GitHub Actions** – автоматизація CI/CD  
+
+---
+
+## Функціональність
+
+Проект реалізує просту функцію:
+
+```
+function calculateTotal(number1, number2) {
+  return number1 + number2;
+'''
+}

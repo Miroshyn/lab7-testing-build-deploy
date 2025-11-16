@@ -1,3 +1,16 @@
-"scripts": {
-  "test": "jest"
+{
+  "name": "lab7-testing-build-deploy",
+  "version": "1.0.0",
+  "description": "Lab 7: Testing, build and deployment with CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
 }
